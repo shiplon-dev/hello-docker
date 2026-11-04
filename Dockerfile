@@ -8,6 +8,5 @@ COPY app.py .
 
 ENV PYTHONUNBUFFERED=1 PORT=8080
 EXPOSE 8080
-USER 10001
 
 CMD ["python", "app.py"]
